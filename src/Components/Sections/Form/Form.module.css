@@ -1,0 +1,164 @@
+.FormCont{
+    width: 70%;
+    margin: auto;
+}
+.Title {
+    font-size: 28px;
+    margin-bottom: 0;
+    background-color: transparent;
+    color: #A28443;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+  }
+  /* .profile-text {
+    font-size: 28px;
+    color: #1db990;
+    margin-right: 50px;
+  } */
+  .SubTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFEFE;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .btnLogOut {
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #1db990;
+    border: none;
+    border-radius: 4px;
+  }
+  .Usersorm {
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    padding: 50px;
+  }
+  .deetailsContainer{
+      font-size: 18px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      color: #FFFEFE;
+      text-align: justify;
+      line-height: 28px;
+      background-color: transparent
+  }
+  .details-form {
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    color:#fff;
+    padding: 50px;
+  }
+  .details-title {
+    text-align: left;
+    text-decoration: 5px solid #1db990 underline;
+  }
+  .Dropdown{
+      color: #fff;
+      background-color: transparent;
+      }
+  option{
+      color: #fff;
+       background-color: #fff; 
+  }
+  label {
+    float: left;
+  }
+  .ColTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  .details {
+    width: 100%;
+    background-color: #f5f6f7;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  .ColTwo #lname {
+    width: 25%;
+  }
+  .ColTwo #fname {
+    width: 30%;
+    margin-right: 10px;
+
+  }
+  .SignIn {
+    text-align: right;
+    color: #d1cfcf;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+  input[type="submit"],
+  .btn {
+    color: #A28443;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    padding: 10px 100px;
+    border: 3px solid #A28443;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    color: #FFFEFE;
+    background-color: #A28443;
+  }
+  input[type="date"]{
+    color: #FFFEFE;
+    background-color: #fff;
+
+  }
+  .Gender{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #FFFEFE;
+    background-color: transparent;
+  }
+  .male, .female{
+    color: #FFFEFE;
+    background-color: transparent;
+
+  }
+  .DOB, 
+  .dateOfBirth,
+  .selectSeat{
+    color: #FFFEFE;
+    background-color: transparent;
+  }
+  .SuccessCont{
+    background-color: #FFFEFE;
+    width: 80%;
+    margin: auto; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 100px auto;
+    min-height: 100vh;
+  }
+  

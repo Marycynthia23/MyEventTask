@@ -1,0 +1,15 @@
+.FooterCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.NavRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFEFE;
+    width: 25%;
+    padding: 50px;
+}

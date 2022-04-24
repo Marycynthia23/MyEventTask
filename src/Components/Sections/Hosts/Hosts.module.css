@@ -1,0 +1,49 @@
+.HostsCont{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.HostsHeader{
+    color: #A28443;
+    margin: auto;
+    text-align: center;
+    margin: 100px auto;
+
+}
+
+.HostsCol{
+    width: 35%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+.HostsCol h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFEFE;
+    background-color: transparent;
+}
+.HostsCol p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFEFE;
+    background-color: transparent;
+}
+.host{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.HostsText{
+    color: #FFFEFE;
+
+}

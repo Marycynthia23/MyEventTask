@@ -1,0 +1,33 @@
+.NavCont{
+    width: 100%;
+    background: #110E08;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    z-index: 200;
+}
+.Navleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFEFE;
+}
+.Logo{
+    width: 12rem;
+}
+li{
+    list-style-type: none;
+    margin: auto 20px;
+}
+.NavLinks{
+    text-decoration: none;
+    color: #FFFEFE;
+    font-family: 'Inter', sans-serif;
+}
+.NavRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFEFE;
+}

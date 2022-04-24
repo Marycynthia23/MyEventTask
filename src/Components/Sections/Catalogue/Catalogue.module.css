@@ -1,0 +1,60 @@
+.CatalogueCont{
+    width: 100%;
+    background: #1B1B1B;    
+}
+.CatHeader{
+    color: #A28443;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    margin: 100px auto;
+    background-color: transparent;
+    padding-top: 50px;
+
+}
+.Nominees{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: transparent;
+    column-gap: 40px;
+    padding: 50px;
+
+
+}
+.NomineesCard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  background-color: transparent;
+  margin-bottom: 20px;
+
+}
+.NomineesCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.NomineesCard img{
+    width: 100%;
+    /* width: 150px;
+    height: 150px; */
+}
+.cardBody{
+    padding: 2px 16px;
+    color: #FFFEFE;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+}
+.cardBody p{
+    background-color: transparent;
+    color: #FFFEFE;
+    font-family: 'Inter', sans-serif;
+
+}
+.role{
+    font-size: 12px;
+}
