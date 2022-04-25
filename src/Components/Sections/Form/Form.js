@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Form.module.css'
 import validate from './Validate'
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router";
 
 
@@ -20,16 +20,8 @@ export const Form = (submitForm) => {
 
   const navigate = useNavigate();
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [isSubmitting, setIsSubmitting] = useState(false);
 
-//   useEffect(() => {
-//     const formData = localStorage.getItem("form_data");
-//     console.log(formData);
-//     if (formData) {
-//       //todo: redirect to profile page
-//       navigate("/profile");
-//     }
-//   }, []);
 
   // update values whenever i change something
   const handleChange = (e) => {
@@ -45,7 +37,7 @@ export const Form = (submitForm) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setErrors(validate(values));
-    setIsSubmitting(true);
+    // setIsSubmitting(true);
     persistData(values);
     console.log("uuuuiii");
   };
