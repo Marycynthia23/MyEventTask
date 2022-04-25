@@ -12,6 +12,8 @@ const FormSuccess = () => {
     seat: "",
     phonenumber: "",
     date: "",
+    gender: "",
+
   });
   useEffect(() => {
     const formData = localStorage.getItem("form_data");
@@ -50,6 +52,10 @@ const FormSuccess = () => {
           <div className="details" id="seat" name="seat">
             {values.seat} Seat Number: {seatNumber}
           </div>
+          <div className="details" id="gender" name="gender">
+          {values.gender}
+        </div>
+
           <div className="colTwo">
             <div className="details" id="lname" name="phonenumber">
               {values.phonenumber}

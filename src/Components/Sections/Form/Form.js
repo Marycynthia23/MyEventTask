@@ -14,6 +14,7 @@ export const Form = (submitForm) => {
     seat: "",
     phonenumber: "",
     date: "",
+    gender: "",
   });
 
   const [errors, setErrors] = useState({});
@@ -115,17 +116,17 @@ export const Form = (submitForm) => {
           <select name="seat" id="seat" className={styles.selectSeat} value={values.seat}onChange={(e) => {
             handleChange(e);
           }}>
-            <option >Select seat</option>
+            <option disabled selected className={styles.bgColor}>Select seat</option>
             <option value="Roll one">Roll one</option>
             <option value="Roll Two">Roll Two</option>
             <option value="Roll Three">Roll Three</option>
             <option value="Roll Four">Roll Four</option>
           </select>
       </div>
-      <div className={styles.ColTwo}>
+      <div className={styles.ColTwoLit}>
           <p className={styles.Gender}>  Gender: &nbsp;</p>
-           <p className={styles.male}>Male: &nbsp;<input type="radio" id="male" name="male" value="Male"/> </p>
-           <p className={styles.female}>Female &nbsp;<input type="radio" id="female" name="female" value="Female"/></p> 
+           <p className={styles.male}>Male: &nbsp;<input type="radio" id="male" name="gender" value="Male"/> </p>
+           <p className={styles.female}>Female &nbsp;<input type="radio" id="female" name="gender" value="Female"/></p> 
       </div>
       <div>
       <label for="dob" className={styles.DOB}>Date of Birth:</label>

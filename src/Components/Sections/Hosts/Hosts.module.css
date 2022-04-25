@@ -84,4 +84,7 @@
         width: 100%;
         margin: 50px auto;
     }
+    .host{
+        margin-right: 20px;
+    }
 }

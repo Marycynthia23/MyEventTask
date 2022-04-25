@@ -1,6 +1,6 @@
 import React from 'react'
 import SuSu from '../../../images/susu.jpeg'
-import Dan from '../../../images/Dan.webp'
+import Dan from '../../../images/Etim.jpeg'
 import styles from './Hosts.module.css';
 
 export const Hosts = () => {

@@ -53,17 +53,25 @@
     text-align: left;
   }
   .Dropdown{
-      color: #fff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #FFFEFE;
       background-color: transparent;
       }
   option{
       color: #fff;
        background-color: #fff; 
   }
+  .bgColor{
+    background-color: #fff; 
+
+  }
   label {
     float: left;
   }
-  .ColTwo {
+  .ColTwo ,
+  .ColTwoLit{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,10 +136,20 @@
 
   }
   .DOB, 
-  .dateOfBirth,
   .selectSeat{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     color: #FFFEFE;
     background-color: transparent;
+  }
+  .dateOfBirth{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #000;
+    background-color: transparent;
+
   }
   .SuccessCont{
     background-color: #FFFEFE;
@@ -148,7 +166,7 @@
       width: 95%;
       margin: auto;
   }
-  .ColTwo{
+  .ColTwo, .ColTwoLit{
     display: flex;
     flex-direction: column;
   }
@@ -162,12 +180,18 @@
     .ColTwo{
       display: flex;
       flex-direction: column;
+      width: 100%;
     }
     input[type="submit"],
   .btn {
     font-size: 16px;
-    padding: 10px 70px;
+    /* padding: 10px 70px; */
+    width: 100%;
     
+  }
+  .ColTwoLit{
+    display: flex;
+    flex-direction: row;
   }
     
   }

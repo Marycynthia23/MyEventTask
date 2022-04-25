@@ -8,7 +8,7 @@ import E from '../../../images/gideon.jpeg'
 import F from '../../../images/deyemi.jpeg'
 import G from '../../../images/funke.jpeg'
 import H from '../../../images/Nancy.png'
-import I from '../../../images/stan.webp'
+import I from '../../../images/StanNze.jpeg'
 
 
 
