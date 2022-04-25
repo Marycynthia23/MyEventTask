@@ -14,7 +14,6 @@
     margin: 100px auto;
 
 }
-
 .HostsCol{
     width: 35%;
     display: flex;
@@ -46,4 +45,43 @@
 .HostsText{
     color: #FFFEFE;
 
+}
+@media screen and (max-width: 600px) {
+    .HostsCont{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    .HostsCol h3{
+        font-size: 18px;
+    }
+    .HostsCol{
+        width: 60%;
+        justify-content: space-evenly;
+    }
+    .HostsCol p{
+        font-size: 12px;
+    }
+   
+
+}
+
+@media screen and (max-width: 320px){
+    .HostsCont{
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    .HostsHeader{
+        color: #A28443;
+        margin: auto;
+        text-align: center;
+        margin: 100px auto;
+    }
+    .HostsCol{
+        width: 100%;
+        margin: 50px auto;
+    }
 }

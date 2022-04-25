@@ -24,3 +24,17 @@
 
     
 }
+@media screen and (max-width: 420px){
+    .SponsorsHeader{
+        font-size: 25px;
+        margin: 50px auto;
+    
+    }
+    .SponsorsCont{
+        width: 90%;
+        flex-direction: column;
+    }
+    .images{
+        width: 60%;
+    }
+}

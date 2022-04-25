@@ -60,7 +60,7 @@ export const Form = (submitForm) => {
   
 
   return (
-    <div id="register"className={styles.FormCont}>
+    <div id="register" className={styles.FormCont}>
     <div className={styles.UsersForm}>
     <h3 className={styles.Title}>Reservations</h3>
     <p className={styles.SubTitle}>

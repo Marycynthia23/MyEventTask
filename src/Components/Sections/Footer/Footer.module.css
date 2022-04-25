@@ -13,3 +13,14 @@
     width: 25%;
     padding: 50px;
 }
+@media screen and (max-width: 600px){
+    .NavRight{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .NavRight{
+        width: 50%;
+    }
+}

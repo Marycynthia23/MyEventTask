@@ -13,11 +13,7 @@
     margin: auto;
     text-align: center;
   }
-  /* .profile-text {
-    font-size: 28px;
-    color: #1db990;
-    margin-right: 50px;
-  } */
+  
   .SubTitle {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -28,13 +24,7 @@
     text-align: center;
     margin: 20px auto;
   }
-  .btnLogOut {
-    padding: 10px 50px;
-    color: #fff;
-    background-color: #1db990;
-    border: none;
-    border-radius: 4px;
-  }
+ 
   .Usersorm {
     flex-direction: row;
     width: 40%;
@@ -61,7 +51,6 @@
   }
   .details-title {
     text-align: left;
-    text-decoration: 5px solid #1db990 underline;
   }
   .Dropdown{
       color: #fff;
@@ -102,14 +91,7 @@
     margin-right: 10px;
 
   }
-  .SignIn {
-    text-align: right;
-    color: #d1cfcf;
-    font-size: 12px;
-    font-weight: 500;
-    margin-top: 0;
-    padding-bottom: 20px;
-  }
+  
   input[type="submit"],
   .btn {
     color: #A28443;
@@ -160,5 +142,33 @@
     align-items: center;
     padding: 100px auto;
     min-height: 100vh;
+  }
+  @media screen and (max-width: 600px) {
+    .FormCont{
+      width: 95%;
+      margin: auto;
+  }
+  .ColTwo{
+    display: flex;
+    flex-direction: column;
+  }
+  }
+
+  @media screen and (max-width: 420px) {
+    .FormCont{
+      width: 90%;
+      margin: auto;
+  }
+    .ColTwo{
+      display: flex;
+      flex-direction: column;
+    }
+    input[type="submit"],
+  .btn {
+    font-size: 16px;
+    padding: 10px 70px;
+    
+  }
+    
   }
   

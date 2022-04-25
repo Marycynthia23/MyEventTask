@@ -31,3 +31,15 @@ li{
     align-items: center;
     color: #FFFEFE;
 }
+@media screen and (max-width: 420px) {
+    .Navleft{
+        display: flex;
+        justify-content: space-between;
+    }
+    .NavLinks{
+        text-align: right;
+    }
+    .NavRight{
+        display: none;
+    }
+}
