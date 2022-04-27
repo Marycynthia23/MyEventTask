@@ -8,7 +8,6 @@ const FormSuccess = () => {
     firstname: "",
     lastname: "",
     email: "",
-    password: "",
     seat: "",
     phonenumber: "",
     date: "",
@@ -45,9 +44,6 @@ const FormSuccess = () => {
             <div className="details" id="lname" name="lastname">
               {values.lastname}
             </div>
-          </div>
-          <div className="details" id="password" name="password">
-            {values.password}
           </div>
           <div className="details" id="seat" name="seat">
             {values.seat} Seat Number: {seatNumber}

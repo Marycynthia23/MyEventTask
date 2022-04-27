@@ -1,4 +1,4 @@
-export default function validateInfo(values) {
+export default function validate(values) {
     let errors = {};
   
     //Firstname
@@ -21,12 +21,12 @@ export default function validateInfo(values) {
     } else if (values.password.length < 6) {
       errors.password = "Password needs to be 6 characters of more";
     }
-    // gender
-    // if (!values.gender[0].checked === false) {
-    //   errors.gender = "Gender required";
-    // }
+   // gender
+    if (!values.gender[0].checked === false) {
+      errors.gender = "Gender required";
+    }
 
-  
+  return errors
     //   if(!values.phonenumber)
   }
   

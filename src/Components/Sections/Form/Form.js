@@ -13,7 +13,7 @@ export const Form = (submitForm) => {
     password: "",
     seat: "",
     phonenumber: "",
-    date: "",
+    dob: "",
     gender: "",
   });
 
@@ -21,7 +21,7 @@ export const Form = (submitForm) => {
 
   const navigate = useNavigate();
 
-  // const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
 
   // update values whenever i change something
@@ -38,7 +38,8 @@ export const Form = (submitForm) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setErrors(validate(values));
-    // setIsSubmitting(true);
+    console.log(errors)
+    setIsSubmitting(true);
     persistData(values);
     console.log("uuuuiii");
   };
@@ -111,26 +112,28 @@ export const Form = (submitForm) => {
 
       <div className={styles.ColTwo}>
       <div>
-          <label for="Chair" className={styles.Dropdown}>Choose a Seat:</label>
+          <label htmlFor="Chair" className={styles.Dropdown}>Choose a Seat:</label>
 
           <select name="seat" id="seat" className={styles.selectSeat} value={values.seat}onChange={(e) => {
             handleChange(e);
           }}>
-            <option disabled selected className={styles.bgColor}>Select seat</option>
+            <option disabled defaultValue className={styles.bgColor}>Select seat</option>
             <option value="Roll one">Roll one</option>
             <option value="Roll Two">Roll Two</option>
             <option value="Roll Three">Roll Three</option>
             <option value="Roll Four">Roll Four</option>
           </select>
       </div>
-      <div className={styles.ColTwoLit}>
+      <div className={styles.ColTwoLit} onChange={(e) => {
+        handleChange(e);
+      }}>
           <p className={styles.Gender}>  Gender: &nbsp;</p>
            <p className={styles.male}>Male: &nbsp;<input type="radio" id="male" name="gender" value="Male"/> </p>
            <p className={styles.female}>Female &nbsp;<input type="radio" id="female" name="gender" value="Female"/></p> 
       </div>
       <div>
-      <label for="dob" className={styles.DOB}>Date of Birth:</label>
-      <input type="date" id="dob" name="dob" value="dob" className={styles.dateOfBirth} />
+      <label htmlFor="dob" className={styles.DOB}>Date of Birth:</label>
+      <input type="date" id="dob" name="dob"  className={styles.dateOfBirth} />
       </div>
       </div>
       
@@ -138,7 +141,7 @@ export const Form = (submitForm) => {
             <div className={styles.ColTwo}>
         <input
           type="number"
-          id="lname"
+          id="number"
           name="phonenumber"
           placeholder="Phone number"
           value={values.phonenumber}

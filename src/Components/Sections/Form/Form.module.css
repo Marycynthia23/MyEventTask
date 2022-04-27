@@ -121,7 +121,7 @@
   }
   input[type="date"]{
     color: #FFFEFE;
-    background-color: #fff;
+    /* background-color: #fff; */
 
   }
   .Gender{

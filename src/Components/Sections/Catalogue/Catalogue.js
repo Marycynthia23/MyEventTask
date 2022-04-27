@@ -31,7 +31,7 @@ export const Catalogue = () => {
     <div className={styles.Nominees}>
           {actorsDetails.map((item) => {
             return (
-              <div className={styles.NomineesCard}>
+              <div className={styles.NomineesCard} key={item.image}>
                 <img src={item.image} alt="human" className={styles.TeamImg} />
                 <div className={styles.cardBody}>
                   <p className={styles.name}>{item.name}</p>
