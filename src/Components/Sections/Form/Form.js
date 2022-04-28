@@ -89,7 +89,7 @@ export const Form = (submitForm) => {
     //   }}
     onSubmit={formik.handleSubmit}
     >
-      <div className={styles.ColTwo}>
+      <div >
         <input
           type="text"
           id="fname"
